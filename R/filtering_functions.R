@@ -2,6 +2,7 @@
 #'
 #' @param col a column of data (vector)
 #' @return Boolean
+#' @export
 #' @example
 #' mtcars %>%
 #'   select_if(.is_categorical_col)
@@ -14,6 +15,7 @@
 #'   useful when an ID column is interpreted as a character variable and not numeric.
 #'
 #' @param data a tibble
+#' @export
 #' @return a tibble
 .select_non_id_columns <- function(data) {
   data %>%

@@ -6,6 +6,7 @@
 #' @param n number of groups to split by
 #' @param data_type
 #' @return a vector of grouped column names of the same type
+#' @export
 #' @example
 #' for (col_names in split_type_colnames_by_num(mtcars, data_type = is.numeric)) {
 #'   mtcars %>%
