@@ -34,8 +34,6 @@ gather_group_by_count <- function(data) {
 #' @example
 #' mtcars %>%
 #'   sample_n_groups()
-#'
-#'
 sample_n_groups <- function(tbl, size, replace = FALSE, weight = NULL) {
   # regroup when done
   grps <- tbl %>%

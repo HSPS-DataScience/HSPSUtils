@@ -1,11 +1,22 @@
 Package: HSPSUtils
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Utility Functions Used By Henry Schein One Data Science 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: as.person(c(
+    "John Wood <jmw.home at gmail dot com> [aut, cre]", 
+    "Trenton Pulsipher <trenton.pulsipher at henryschein dot com> [aut]"
+  ))
+Maintainer: Trenton Pulsipher <trenton.pulsipher@henryschein.com> 
+Description: HSPSUtils provides convenience functions for all members of the 
+    Henry Schein Data Science Team by creating a simple package to store all 
+    useful functions and R code used for data exploration and manipulation. 
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
+Depends: R (>= 3.4) 
+Imports: dplyr, 
+    lubridate, 
+    magrittr
+Suggests: tidyverse 
+RoxygenNote: 6.1.0
