@@ -1,10 +1,16 @@
 # HSPS-Utils
-Utility functions used at Henry Schien Data Science 
+Utility functions used at Henry Schein Data Science 
 
 ## Installation
 * Ensure that devtools is installed: `install.packages("devtools")`
 * Run: `install_github("HSPS-DataScience/HSPSUtils")` 
 * Load HSPSUtils: `library(HSPSUtils)` 
+
+## Updating
+* If the package fails to load or function properly, make sure HSPSUtils is updated:
+  + `devtools::update_packages("HSPSUtils")` will update the package to the current version 
+  + `library(HSPSUtils)` to reload into session  
+  + If neither options works, try restarting your R session 
 
 ## Package Structure 
 * Functions should be put in separate R scripts with their function name as the title
