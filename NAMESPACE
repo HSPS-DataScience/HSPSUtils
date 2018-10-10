@@ -3,6 +3,7 @@
 export(.is_categorical_col)
 export(.select_non_id_columns)
 export(gather_group_by_count)
+export(handle_exceptions)
 export(read_data_from_path)
 export(sample_n_groups)
 export(split_type_colnames_by_num)
