@@ -1,5 +1,5 @@
 # HSPS-Utils
-Utility functions used at Henry Schien Data Science 
+Utility functions used at Henry Schein Data Science 
 
 ## Installation
 * Ensure that devtools is installed: `install.packages("devtools")`
