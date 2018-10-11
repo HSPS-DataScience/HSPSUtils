@@ -2,13 +2,17 @@
 % Please edit documentation in R/exception_handling.R
 \name{handle_exceptions}
 \alias{handle_exceptions}
-\title{safely handle errors and warnings in any given function}
+\title{handle exceptions: decorator
+safely handle errors and warnings in any given function by applying
+decorator to function}
 \usage{
-handle_exceptions(expr)
+handle_exceptions(f)
 }
 \arguments{
 \item{expr}{an expression or function}
 }
 \description{
-safely handle errors and warnings in any given function
+handle exceptions: decorator
+safely handle errors and warnings in any given function by applying
+decorator to function
 }
